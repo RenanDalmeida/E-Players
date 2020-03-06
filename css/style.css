@@ -396,6 +396,9 @@ select {
     margin: auto;
 }
 
+header .fa-bars{
+    display: none;
+}
 /* Início Responsividade */
 
 /* 800 */
@@ -451,7 +454,38 @@ select {
 } /*Fim mídia Query 800px*/
 
 @media(max-width: 460px){
-    
+    header .fa-bars{
+        color: purple;
+        font-size: 3em;
+        display: block;
+    }
+    header .container div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #menu{
+        position:absolute;
+        top: 5.5em;
+        width: 100%;
+        background-color: purple;
+        left: 0;
+        display: none;
+    }
+
+    header .container div a{
+        margin-left: 7em;
+    }
+
+    #menu ul{
+        flex-direction: column;
+        height: 300px;
+        margin-left: 1em;
+    }
+    #menu a{
+        display: block;
+        padding: 0.5em 0;
+    }
 }
 
 
