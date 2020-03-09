@@ -451,7 +451,7 @@ header .fa-bars{
         margin-top: 0.5em;
     }  
                                     
-} /*Fim mídia Query 800px*/
+} /* Fim mídia Query 800px */
 
 @media(max-width: 460px){
     header .fa-bars{
@@ -486,7 +486,18 @@ header .fa-bars{
         display: block;
         padding: 0.5em 0;
     }
-}
+    .partidas .container{
+        width: 97%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .em_andamento{
+        width: 90%
+    }
+    .proximas_partidas{
+        width: 90%;
+    }
+} /* Fim mídia Query 460px */
 
 
 
